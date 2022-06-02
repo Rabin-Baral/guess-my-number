@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background: linear-gradient(215deg, rgb(170, 14, 170), rgb(62, 230, 230)); */
+    background: url("https://static.vecteezy.com/system/resources/previews/000/682/270/original/pink-purple-geometric-gradient-fluid-style-wallpaper.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color:rgba(17, 17, 17, 0.897);
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    /* background: rgba(255, 255, 255, 0.397); */
+    background: linear-gradient(45deg, rgba(170, 14, 170, 0.7), rgba(62, 230, 230, 0.7));
+    border-radius: 5px;
+    border: 3px solid #ffffff8f;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 100;
+}
+
+input, button{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button{
+    background: linear-gradient(45deg, rgba(170, 14, 170, 0.50), rgba(62, 230, 230, 0.50));
+    color: #fff;
+    border:2px solid rgba(255, 255, 255, 0.555);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background: linear-gradient(45deg, rgb(170, 14, 170, 0.7), rgb(62, 230, 230, 0.7));
+}
+
+p{
+    font-size: 18px;
+    text-transform: capitalize;
+}
